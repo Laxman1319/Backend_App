@@ -1,0 +1,32 @@
+{
+  "name": "backend-app",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Laxman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laxman1319/Backend_App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Laxman1319/Backend_App/issues"
+  },
+  "homepage": "https://github.com/Laxman1319/Backend_App#readme",
+  "description": ""
+}

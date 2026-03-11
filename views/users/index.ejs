@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Users Admin Page</h2>
+    <a href="/users/add">Add User</a>
+    <ol>
+    <% users.forEach(user => { %>
+        <li><%= user.name %>-
+            <%= user.email %>-
+            <%= user.password %>-
+            <%= user.role %>-
+            <a href="/users/<%= user._id %>/edit">Edit</a>-
+            <a href="/users/<%= user._id %>/delete">Delete</a>
+        </li>
+    <% }) %>
+    </ol>
+</body>
+</html>
