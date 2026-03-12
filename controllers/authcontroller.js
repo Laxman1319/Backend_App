@@ -1,4 +1,4 @@
-import usermodel from "../models/usermodel.js";
+import userModel from "../models/userModel.js";
 import bcrypt from "bcrypt";
 const login = async (req, res) => {
   res.render("auth/login");

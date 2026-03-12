@@ -1,4 +1,4 @@
-import {login,validateUser,register,registerUser,logout,signup,signin} from "../controllers/authcontroller.js"
+import {login,validateUser,register,registerUser,logout,signup,signin} from "../controllers/authController.js"
 import express from "express"
 const authRouter = express.Router()
 
