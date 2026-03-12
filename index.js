@@ -9,7 +9,7 @@ import productRouter from "./routes/productroute.js";
 import storeRouter from "./routes/storeroute.js";
 import homeRouter from "./routes/homeroute.js";
 import authRouter from "./routes/authroute.js";
-import userRouter from "./routes/userroute.js";
+import userRouter from "./routes/userRoute.js";
 
 const app = express();
 app.use(cors());
